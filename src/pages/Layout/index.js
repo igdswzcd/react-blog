@@ -15,7 +15,7 @@ function BlogLayout() {
 	const menuItems = [
 		{ label: <Link to='/'>可视数据</Link>, key: '/', icon: <HomeOutlined></HomeOutlined> },
 		{ label: <Link to='/article'>文章管理</Link>, key: '/article', icon: <DiffOutlined></DiffOutlined> },
-		{ label: <Link to='/publish'>发布编辑</Link>, key: '/publish', icon: <EditOutlined></EditOutlined> }
+		{ label: <Link to='/publish'>编辑发布</Link>, key: '/publish', icon: <EditOutlined></EditOutlined> }
 	]
 	useEffect(() => {
 		try {

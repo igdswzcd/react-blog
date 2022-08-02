@@ -135,7 +135,7 @@ const Article = () => {
 						<Breadcrumb.Item>
 							<Link to='/home'>首页</Link>
 						</Breadcrumb.Item>
-						<Breadcrumb.Item>内容管理</Breadcrumb.Item>
+						<Breadcrumb.Item>文章管理</Breadcrumb.Item>
 					</Breadcrumb>
 				}
 				style={{ marginBottom: 20 }}>
